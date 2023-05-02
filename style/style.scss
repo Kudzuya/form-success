@@ -1,0 +1,77 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.section__form{
+    height: 100vh;
+    width: 100%;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+
+    background-image: url('/img/low-angle-shot-of-the-modern-glass-buildings-and-skyscrapers-on-a-clear-day\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+
+    & .form{    
+        background: linear-gradient(107.62deg, rgba(255, 195, 80, 0.85) -53.02%, rgba(255, 195, 80, 0.85) 134.49%);
+        border-radius: 60px;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        max-width: 800px;
+        width: 100%;
+        margin: 0 auto;
+
+       padding: 160px 100px;
+
+       img{
+        width: 120px;
+       }
+        @media screen and (max-width: 700px) {
+            padding: 86px;
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+
+
+        
+
+        &__title{
+        
+
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 44px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            
+        @media screen and (max-width: 700px) {
+
+            font-size: 20px;
+            line-height: 24px;
+
+        }
+
+        @media screen and (max-width: 700px) {
+            font-size: 16px;
+
+        }
+        }
+    }
+}
+
+
+
